@@ -5,5 +5,5 @@ docker run -d -t --name cutlass_study -v $(pwd):/workspace --gpus all cuda_dafau
 ### 컨테이너 실행
 ```
 vscode 연결 or
-docker exec -it cut_container /bin/bash
+docker exec -it cutlass_study /bin/bash
 ```
